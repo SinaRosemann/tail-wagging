@@ -2,3 +2,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply rounded
+    text-white
+    font-semibold
+    bg-black
+    px-6
+    py-3
+    transition
+    duration-100
+    ease-in-out
+}
+.btn:hover {
+  @apply rounded
+    bg-gray-700
+}
+
+.btn-hollow {
+  @apply rounded
+    text-blue
+    font-semibold
+    bg-transparent
+    border-blue
+    border
+    px-6
+    py-3
+    transition
+    duration-100
+    ease-in-out
+}
+.btn-hollow:hover {
+  @apply rounded
+    text-white
+    bg-blue
+}
